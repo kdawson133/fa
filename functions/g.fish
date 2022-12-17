@@ -10,6 +10,7 @@
 --
 -- @kirk133
 --              
+-- ls
 function ls --wraps='exa --icons' --description 'alias ls exa --icons'
   exa --icons $argv; 
 end
@@ -27,4 +28,8 @@ function ld --wraps='exa -D --icons' --description 'alias ls exa -D --icons'
 end
 function lt --wraps='exa -T --icons' --description 'alias ls exa -T --icons'
   exa -T --icons $argv; 
+end
+-- git
+function gst --wraps='git status' --description 'alias gst git status'
+  git status $argv; 
 end
