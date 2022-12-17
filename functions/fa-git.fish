@@ -14,7 +14,7 @@
 function gst --wraps='git status' --description 'alias gst git status'
   git status $argv; 
 end
-function gst --wraps='git add --all' --description 'alias gaa git add --all'
+function gaa --wraps='git add --all' --description 'alias gaa git add --all'
   git add --all $argv; 
 end
 function ga --wraps='git add' --description 'alias ga git add'
