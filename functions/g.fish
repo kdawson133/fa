@@ -1,4 +1,4 @@
--- g.lua
+-- g.fish
 --  _       _                               __ ____ ____  
 -- | |     | |                             /_ |___ \___ \ 
 -- | | ____| | __ ___      _____  ___  _ __ | | __) |__) |
@@ -10,26 +10,46 @@
 --
 -- @kirk133
 --              
--- ls
-function ls --wraps='exa --icons' --description 'alias ls exa --icons'
-  exa --icons $argv; 
-end
-function la --wraps='exa -la --icons' --description 'alias ls exa -la --icons'
-  exa -la --icons $argv; 
-end
-function ll --wraps='exa -l --icons' --description 'alias ls exa -l --icons'
-  exa -l --icons $argv; 
-end
-function l. --wraps='exa .* --icons' --description 'alias ls exa .* --icons'
-  exa .* --icons $argv; 
-end
-function ld --wraps='exa -D --icons' --description 'alias ls exa -D --icons'
-  exa -D --icons $argv; 
-end
-function lt --wraps='exa -T --icons' --description 'alias ls exa -T --icons'
-  exa -T --icons $argv; 
-end
 -- git
 function gst --wraps='git status' --description 'alias gst git status'
   git status $argv; 
+end
+function gst --wraps='git add --all' --description 'alias gaa git add --all'
+  git add --all $argv; 
+end
+function ga --wraps='git add' --description 'alias ga git add'
+  git add $argv; 
+end
+function gcm --wraps='git commit -m' --description 'alias gcm git commit -m'
+  git commit -m $argv; 
+end
+function gcu --wraps='git commit -m "updated"' --description 'alias gcu git commit -m "updated"'
+  git commit -m "updated" $argv; 
+end
+function gca --wraps='git commit -m "added"' --description 'alias gca git commit -m "added"'
+  git commit -m "added" $argv; 
+end
+function gcd --wraps='git commits -m "deleted"' --description 'alias gcd git commit -m "deleted"'
+  git commit -m "deleted" $argv; 
+end
+function gl --wraps='git pull' --description 'alias gl git pull'
+  git pull $argv; 
+end
+function gp --wraps='git push' --description 'alias gp git push'
+  git push $argv; 
+end
+function gbr --wraps='git branch' --description 'alias gbr git branch'
+  git branch $argv; 
+end
+function gco --wraps='git checkout' --description 'alias gco git checkout'
+  git checkout $argv; 
+end
+function grr --wraps='git remote rm' --description 'alias grr git remote rm'
+  git remote rm $argv; 
+end
+function gra --wraps='git remote add' --description 'alias gra git remote add'
+  git remote add $argv; 
+end
+function grsu --wraps='git remote set-url --add --push' --description 'alias grsu ggit remote set-url --add --push'
+  git remote set-url --add --push $argv; 
 end
