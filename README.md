@@ -1,5 +1,10 @@
-# g
-A git plugin for the fish shell.
+# FA
+A Fish Shell plugin for handy aliases.
+
+## git
+
+## ls
+
 
 requirements:
 ```
