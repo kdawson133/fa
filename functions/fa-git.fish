@@ -38,6 +38,12 @@ end
 function gp --wraps='git push' --description 'alias gp git push'
   git push $argv; 
 end
+function gi --wraps='git init' --description 'alias gi git init'
+  git init $argv; 
+end
+function gc --wraps='git clone' --description 'alias gc git clone'
+  git clone $argv; 
+end
 function gbr --wraps='git branch' --description 'alias gbr git branch'
   git branch $argv; 
 end
