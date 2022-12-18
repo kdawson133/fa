@@ -33,14 +33,13 @@ A Fish Shell plugin for handy aliases.
 | ld    | ls exa -D --icons								|
 | lt		| ls exa -T --level=3--icons			|
 
-Requirements:
+## Requirements:
 ```
 exa
 git
 ```
 
-Install:
+## Installation:
 ```
 fisher install kdawson133/fa
 ```
-
