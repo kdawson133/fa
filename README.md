@@ -24,8 +24,16 @@ A Fish Shell plugin for handy aliases.
 
 ## ls
 
+| Alias | Command 												|
+| ----- | -------------------------------	|
+| ls 		| ls exa --icons									|
+| la 		| ls exa -la --icons							|
+| ll		| ls exa -l --icons        				|
+| l.    | ls exa -I *.* --icons						|
+| ld    | ls exa -D --icons								|
+| lt		| ls exa -T --level=3--icons			|
 
-requirements:
+Requirements:
 ```
 exa
 git

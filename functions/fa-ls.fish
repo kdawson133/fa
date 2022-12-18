@@ -26,6 +26,6 @@ end
 function ld --wraps='exa -D --icons' --description 'alias ld exa -D --icons'
   exa -D --icons $argv; 
 end
-function lt --wraps='exa -T --icons' --description 'alias lt exa -T --icons'
-  exa -T --icons $argv; 
+function lt --wraps='exa -T --level=3 --icons' --description 'alias lt exa -T --level=3 --icons'
+  exa -T --level=3 --icons $argv; 
 end
