@@ -11,24 +11,9 @@
 # @kirk133
 #        
 # git
-function gst --wraps='git status' --description 'alias gst git status'
-  git status $argv; 
-end
-function gaa --wraps='git add --all' --description 'alias gaa git add --all'
-  git add --all $argv; 
-end
-function ga --wraps='git add' --description 'alias ga git add'
-  git add $argv; 
-end
-function gcm --wraps='git commit -m' --description 'alias gcm git commit -m'
-  git commit -m $argv; 
-end
-function gcu --wraps='git commit -m "updated"' --description 'alias gcu git commit -m "updated"'
-  git commit -m "updated" $argv; 
-end
-function gca --wraps='git commit -m "added"' --description 'alias gca git commit -m "added"'
-  git commit -m "added" $argv; 
-end
+
+
+
 function gcd --wraps='git commits -m "deleted"' --description 'alias gcd git commit -m "deleted"'
   git commit -m "deleted" $argv; 
 end
