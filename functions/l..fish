@@ -11,5 +11,5 @@
 # @kirk133
 #           
 function l. --wraps='exa -I *.* --icons' --description 'alias l. exa -I *.* --icons'
-  exa -I *.* --icons $argv; 
+  exa -la --icons $argv | grep " \."; 
 end
