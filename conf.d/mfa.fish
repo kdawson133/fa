@@ -35,3 +35,4 @@ function rm
 end
 function bak
   cp $argv $argv.bak
+end
