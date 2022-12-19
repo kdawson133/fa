@@ -24,3 +24,12 @@ end
 function svim
   sudo nvim $argv; 
 end
+function cp
+  cp -i
+end
+function mv
+  mv -i
+end
+function rm
+  rm -i
+end
