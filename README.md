@@ -1,4 +1,5 @@
-# FA
+# fa (fish aliases)
+
 A Fish Shell plugin for handy aliases.
 
 ### docker-compose
