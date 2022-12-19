@@ -19,7 +19,7 @@ function :c
   clear; 
 end
 function vim
-  git nvim $argv; 
+  nvim $argv; 
 end
 function svim
   sudo nvim $argv; 
