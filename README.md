@@ -1,7 +1,34 @@
 # FA
 A Fish Shell plugin for handy aliases.
 
-## git
+### docker-compose
+* requires docker and docker-compose
+
+| Alias | Command 												|
+| ----- | -------------------------------	|
+| dcp		| docker-compose pull							|
+| dcu   | docker-compose up -d						|
+| dcd		| docker-compose down 						|
+| dce 	| edit docker-compose.yml					|
+| dcl		| docker-compose ps 							|
+| dci 	| docker-compose images 					| 
+
+### find
+* requires fd
+
+| Alias | Command 												|
+| ----- | -------------------------------	|
+| find	| fd 			 												|
+| fd 		| fd -IHiaL 											|
+| fde 	| fd -e 													|
+| fdtf 	| fd -t f 												|
+| fdtd 	| fd -t d 												|
+| fdtl 	| fd -t l 												|
+| fdtx 	| fd -t x 												|
+| fdte  | fd -t e 												|
+
+### git
+* requires git
 
 | Alias | Command 												|
 | ----- | -------------------------------	|
@@ -22,7 +49,8 @@ A Fish Shell plugin for handy aliases.
 | gra		| git remote add 									|
 | grsu 	| git remote set-url --add --push |
 
-## ls
+### ls
+* requires exa
 
 | Alias | Command 												|
 | ----- | -------------------------------	|
@@ -33,11 +61,15 @@ A Fish Shell plugin for handy aliases.
 | ld    | ls exa -D --icons								|
 | lt		| ls exa -T --level=3--icons			|
 
-## Requirements:
-```
-exa
-git
-```
+### misc
+* requires neovim
+
+| Alias | Command 												|
+| ----- | -------------------------------	|
+| :q 		| exit														|
+| :c 		| clear														|
+| vim		| nvim														|
+| svim 	| sudo vim 												|
 
 ## Installation:
 ```
