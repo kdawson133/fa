@@ -33,3 +33,5 @@ end
 function rm
   rm -i
 end
+function bak
+  cp $argv $argv.bak
