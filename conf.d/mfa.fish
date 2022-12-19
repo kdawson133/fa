@@ -24,6 +24,9 @@ end
 function svim
   sudo nvim $argv; 
 end
+function bak
+  cp -i $argv $argv.bak
+end
 function cp
   cp -i
 end
@@ -32,7 +35,4 @@ function mv
 end
 function rm
   rm -i
-end
-function bak
-  cp $argv $argv.bak
 end
