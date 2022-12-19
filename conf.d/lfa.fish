@@ -13,19 +13,19 @@
 # ls(exa) aliases
 #
 function l.
-  exa -la --icons $argv | grep " \."; 
+  exa -la --icons --group-directories-first $argv | grep " \."; 
 end
 function la
-  exa -la --icons $argv; 
+  exa -la --icons --group-directories-first $argv; 
 end
 function ld
   exa -D --icons $argv; 
 end
 function ll
-  exa -l --icons $argv; 
+  exa -l --icons --group-directories-first $argv; 
 end
 function ls
-  exa --icons $argv; 
+  exa --icons --group-directories-first $argv; 
 end
 function lt
   exa -T --level=3 --icons $argv; 
