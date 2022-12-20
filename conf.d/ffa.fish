@@ -18,29 +18,29 @@ function find
 end
 # fd pattern
 function fd
-	fd -IHiaL $argv;
+	find -IHiaL $argv;
 end
 # fd extention
 function fde
-	fd -e $argv;
+	find -e $argv;
 end
 # fd type file
 function fdtf
-	fd -t f $argv;
+	find -t f $argv;
 end
 # fd type directory
 function fdtd
-	fd -t d $argv;
+	find -t d $argv;
 end
 # fd type symlink
 function fdtl
-	fd -t l $argv;
+	find -t l $argv;
 end
 # fd type executable
 function fdtx
-	fd -t x $argv;
+	find -t x $argv;
 end
 # fd type empty
 function fdte
-	fd -t e $argv;
+	find -t e $argv;
 end
