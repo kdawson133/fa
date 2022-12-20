@@ -36,12 +36,4 @@ end
 #function rmi
 #  rm -i $argv;
 #end
-function cp --wraps='cp -i' --description 'alias cp=cp -i'
-  cp -i $argv; 
-end
-function mv --wraps='mv -i' --description 'alias mv=mv -i'
-  mv -i $argv; 
-end
-function rm --wraps='rm -i' --description 'alias rm=rm -i'
-  rm -i $argv;
-end
+
