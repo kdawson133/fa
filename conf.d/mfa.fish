@@ -25,14 +25,23 @@ function svim
   sudo nvim $argv; 
 end
 function bak
-  cpi $argv $argv.bak
+  cpi $argv $argv.bak;
 end
-function cpi
-  cp -i $argv
+#function cpi
+#  cp -i $argv;
+#end
+#function mvi
+#  mv -i $argv;
+#end
+#function rmi
+#  rm -i $argv;
+#end
+function cp --wraps='cp -i' --description 'alias cp=cp -i'
+  cp -i $argv; 
 end
-function mvi
-  mv -i $argv
+function mv --wraps='mv -i' --description 'alias mv=mv -i'
+  mv -i $argv; 
 end
-function rmi
-  rm -i $argv
+function rm --wraps='rm -i' --description 'alias rm=rm -i'
+  rm -i $argv;
 end
