@@ -28,11 +28,11 @@ function bak
   cpi $argv $argv.bak
 end
 function cpi
-  cp -i
+  cp -i $argv
 end
 function mvi
-  mv -i
+  mv -i $argv
 end
 function rmi
-  rm -i
+  rm -i $argv
 end
