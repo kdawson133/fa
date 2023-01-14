@@ -18,6 +18,9 @@ end
 function gaa
   git add --all $argv; 
 end
+function gau
+  git add --update $argv;
+end
 function gbr
   git branch $argv; 
 end

@@ -39,6 +39,7 @@ A Fish Shell plugin for handy aliases.
 | gp    | git push 												|
 | gst   | git status 											|
 | gaa		| git add --all 									|
+| gau   | git add --updated               |
 | gaa		| git add 												|
 | gcm		| git commit -m 									|
 | gcu		| git commit -m "updated" 				|
@@ -53,14 +54,14 @@ A Fish Shell plugin for handy aliases.
 ### ls
 * requires exa
 
-| Alias | Command 												|
-| ----- | -------------------------------	|
-| ls 		| ls exa --icons									|
-| la 		| ls exa -la --icons							|
-| ll		| ls exa -l --icons        				|
-| l.    | ls exa -I *.* --icons						|
-| ld    | ls exa -D --icons								|
-| lt		| ls exa -T --level=3--icons			|
+| Alias | Command 										|
+| ----- | ---------------------------	|
+| ls 		| exa --icons									|
+| la 		| exa -la --icons							|
+| ll		| exa -l --icons       				|
+| l.    | exa -I *.* --icons					|
+| ld    | exa -D --icons							|
+| lt		| exa -T --level=3--icons			|
 
 ### misc
 * requires neovim
