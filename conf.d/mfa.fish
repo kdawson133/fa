@@ -27,3 +27,6 @@ end
 function bak
   cpi $argv $argv.bak;
 end
+function up
+  cd ..;
+end
