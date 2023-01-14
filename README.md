@@ -16,6 +16,10 @@ A Fish Shell plugin for handy aliases.
 
 ### find
 * requires fd
+Add the following to your `config.fish`
+```bash
+alias fd='fd -IHiaL'
+```
 
 | Alias | Command 												|
 | ----- | -------------------------------	|
@@ -72,6 +76,7 @@ A Fish Shell plugin for handy aliases.
 | :c 		| clear														|
 | vim		| nvim														|
 | svim 	| sudo vim 												|
+| bak 	| cp file file.bak 								|
 
 ## Installation:
 ```

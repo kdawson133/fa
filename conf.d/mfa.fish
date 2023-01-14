@@ -24,3 +24,6 @@ end
 function svim
   sudo nvim $argv; 
 end
+function bak
+  cpi $argv $argv.bak;
+end

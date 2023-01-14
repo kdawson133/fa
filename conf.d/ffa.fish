@@ -16,10 +16,6 @@
 function find
 	fd $argv;
 end
-# fd pattern
-function fd
-	fd -IHiaL $argv;
-end
 # fd extention
 function fde
 	fd -e $argv;
