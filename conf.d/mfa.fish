@@ -19,7 +19,7 @@ function :c
   clear; 
 end
 function :
-  cd $HOME
+  clear; and cd $HOME;
 end
 function vim
   nvim $argv; 
