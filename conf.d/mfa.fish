@@ -18,6 +18,9 @@ end
 function :c
   clear; 
 end
+function :
+  cd $HOME
+end
 function vim
   nvim $argv; 
 end
