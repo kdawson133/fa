@@ -15,22 +15,8 @@
 # miscellaneous abbreviations
 #
 abbr :q "exit"
-
-function :c
-  clear; 
-end
-function :
-  clear; and cd $HOME;
-end
-function vim
-  nvim $argv; 
-end
-function svim
-  sudo nvim $argv; 
-end
-function bak
-  cpi $argv $argv.bak;
-end
-function up
-  cd ..;
-end
+abbr :c "clear"
+abbr : "clear; and cd $HOME"  
+abbr vim "nvim"
+abbr svim "sudo nvim"
+abbr up "cd .."
