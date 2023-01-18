@@ -1,4 +1,4 @@
-# afa.fish
+#
 #  _       _                               __ ____ ____  
 # | |     | |                             /_ |___ \___ \ 
 # | | ____| | __ ___      _____  ___  _ __ | | __) |__) |
@@ -8,9 +8,11 @@
 #
 # https://github.com/kdawson133/
 #
-# @kirk133
+# @kirk133@fosstodon.org
 #         
-# archive extraction aliases
+# ex.fish
+#         
+# archive extraction function
 #
 function ex
   if test -f $argv

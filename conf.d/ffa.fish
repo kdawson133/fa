@@ -1,4 +1,4 @@
-# mfa.fish
+#
 #  _       _                               __ ____ ____  
 # | |     | |                             /_ |___ \___ \ 
 # | | ____| | __ ___      _____  ___  _ __ | | __) |__) |
@@ -8,8 +8,10 @@
 #
 # https://github.com/kdawson133/
 #
-# @kirk133
+# @kirk133@fosstodon.org
 #         
+# ffa.fish
+#    
 # find aliases
 #
 # call fd instead of find
