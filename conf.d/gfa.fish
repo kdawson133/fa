@@ -12,56 +12,22 @@
 #         
 # gfa.fish
 #         
-# git aliases
+# git abbreviations
 #
-function ga
-  git add $argv; 
-end
-function gaa
-  git add --all $argv; 
-end
-function gau
-  git add --update $argv;
-end
-function gbr
-  git branch $argv; 
-end
-function gc
-  git clone $argv; 
-end
-function gca
-  git commit -m "added" $argv; 
-end
-function gcd
-  git commit -m "deleted" $argv; 
-end
-function gcm
-  git commit -m $argv; 
-end
-function gco
-  git checkout $argv; 
-end
-function gcu
-  git commit -m "updated" $argv; 
-end
-function gi
-  git init $argv; 
-end
-function gl
-  git pull $argv; 
-end
-function gp
-  git push $argv; 
-end
-function gra
-  git remote add $argv; 
-end
-function grr
-  git remote rm $argv; 
-end
-function grsu
-  git remote set-url --add --push $argv; 
-end
-function gst
-  git status $argv; 
-end
+abbr ga "git add"
+abbr gaa  "git add --all"
+abbr gau "git add --update"
+abbr gbr "git branch"
+abbr gc "git clone"
+abbr gca "git commit -m 'added'"
+abbr gcd "git commit -m 'deleted'"
+abbr gcm "git commit -m"
+abbr gco "git checkout"
+abbr gcu "git commit -m 'updated'"
+abbr gi "git init"
+abbr gl "git pull"
+abbr gp "git push"
+abbr gra "git remote add"
+abbr grr "git remote rm" 
+abbr grsu "git remote set-url --add --push"
+abbr gst "git status"
