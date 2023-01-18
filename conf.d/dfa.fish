@@ -12,23 +12,11 @@
 #         
 # dfa.fish
 #         
-# docker-compose aliases
+# docker-compose abbreviations
 #
-function dcp
-	docker-compose pull
-end
-function dcu
-	docker-compose up -d
-end
-function dcd
-	docker-compose down
-end
-function dce
-	edit docker-compose.yml
-end
-function dcl
-	docker-compose ps
-end
-function dci
-	docker-compose images
-end
+abbr dcp "docker-compose pull"
+abbr dcu "docker-compose up -d"
+abbr dcd "docker-compose down"
+abbr dce "edit docker-compose.yml"
+abbr dcl "docker-compose ps"
+abbr dci "docker-compose images"
