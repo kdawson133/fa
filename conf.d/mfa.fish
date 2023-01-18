@@ -12,11 +12,10 @@
 #         
 # mfa.fish
 #         
-# miscellaneous aliases
+# miscellaneous abbreviations
 #
-function :q
-  exit; 
-end
+abbr :q "exit"
+
 function :c
   clear; 
 end
