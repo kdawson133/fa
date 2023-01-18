@@ -12,33 +12,17 @@
 #         
 # ffa.fish
 #    
-# find aliases
+# find abreviations
 #
-# call fd instead of find
-function find
-	fd $argv;
-end
 # fd extention
-function fde
-	fd -e $argv;
-end
+abbr fde "fd -e"
 # fd type file
-function fdtf
-	fd -t f $argv;
-end
+abbr fdtf "fd -t f"
 # fd type directory
-function fdtd
-	fd -t d $argv;
-end
+abbr fdtd "fd -t d"
 # fd type symlink
-function fdtl
-	fd -t l $argv;
-end
+abbr fdtl "fd -t l"
 # fd type executable
-function fdtx
-	fd -t x $argv;
-end
+abbr fdtx	"fd -t x"
 # fd type empty
-function fdte
-	fd -t e $argv;
-end
+abbr fdte "fd -t e"

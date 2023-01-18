@@ -12,23 +12,11 @@
 #         
 # lfa.fish
 #
-# ls(exa) aliases
+# ls(exa) abbreviations
 #
-function l.
-  exa -la --icons --group-directories-first $argv | grep " \."; 
-end
-function la
-  exa -la --icons --group-directories-first $argv; 
-end
-function ld
-  exa -D --icons $argv; 
-end
-function ll
-  exa -l --icons --group-directories-first $argv; 
-end
-function ls
-  exa --icons --group-directories-first $argv; 
-end
-function lt
-  exa -T --level=3 --icons $argv; 
-end
+abbr l. "exa -la --icons --group-directories-first | grep ' \.'"
+abbr la "exa -la --icons --group-directories-first"
+abbr ld "exa -D --icons"
+abbr ll "exa -l --icons --group-directories-first" 
+abbr ls "exa --icons --group-directories-first"
+abbr lt "exa -T --level=3 --icons"
