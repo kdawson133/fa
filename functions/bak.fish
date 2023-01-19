@@ -15,5 +15,5 @@
 # backup function
 #
 function bak
-  cpi $argv $argv.bak;
+  cp -i $argv $argv.bak;
 end
