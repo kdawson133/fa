@@ -12,17 +12,17 @@
 #         
 # ffa.fish
 #    
-# find abreviations
+# find aliases
 #
 # fd extention
-abbr fde "fd -e"
+alias fde="fd -e"
 # fd type file
-abbr fdtf "fd -t f"
+alias fdtf="fd -t f"
 # fd type directory
-abbr fdtd "fd -t d"
+alias fdtd="fd -t d"
 # fd type symlink
-abbr fdtl "fd -t l"
+alias fdtl="fd -t l"
 # fd type executable
-abbr fdtx	"fd -t x"
+alias fdtx="fd -t x"
 # fd type empty
-abbr fdte "fd -t e"
+alias fdte="fd -t e"
